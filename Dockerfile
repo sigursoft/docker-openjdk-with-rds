@@ -1,6 +1,6 @@
 FROM openjdk:11
 
-LABEL maintainer="Anton Kozik pazitron@gmail.com"
+LABEL maintainer="pazitron@gmail.com"
 
 RUN apt-get update -qq && \
     apt-get clean && \
