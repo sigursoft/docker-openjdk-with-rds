@@ -10,6 +10,8 @@ RUN apt-get update -qq && \
 
 COPY import-rds-certificates.sh /usr/src
 
+RUN chmod +x /usr/src/import-rds-certificates.sh
+
 RUN /usr/src/import-rds-certificates.sh
 
 ENTRYPOINT ["/bin/bash", "-c"]
