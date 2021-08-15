@@ -1,4 +1,4 @@
-FROM adoptopenjdk:11-jre-hotspot
+FROM openjdk:11-jre
 
 LABEL maintainer="pazitron@gmail.com"
 
